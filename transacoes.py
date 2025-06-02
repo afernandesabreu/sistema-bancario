@@ -4,7 +4,7 @@ Para ler e escrever dados em Python, utilizamos as seguintes funções:
 - print: imprime um texto de Saída (Output), pulando linha.  
 '''
 
-def calcular_saldo(transacoes):
+def calcular_saldo(transacoes: list[float]) -> str:
     saldo = 0
     for transacao in transacoes:
         saldo += transacao
